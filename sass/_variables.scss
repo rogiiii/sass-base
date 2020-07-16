@@ -1,0 +1,44 @@
+/**
+ * common
+ */
+$glid: 8px;
+
+/**
+ * Font
+ */
+// Font size ( base 14px )
+$font-size: (
+  base: 14px,
+  normal: 1rem,
+  small: 0.857rem,    // 12px
+  tiny: 0.714rem,     // 10px
+  big: 1.143rem,      // 16px
+  huge: 1.428rem      // 20px
+);
+// Font size ( base 16px )
+// $font-size: (
+//   base: 16px,
+//   normal: 1rem,
+//   small: 0.875rem,    // 14px
+//   tiny: 0.625rem,     // 10px
+//   big: 1.125rem,      // 18px
+//   huge: 1.375rem      // 22px
+// );
+// Font weight
+$font-weight: (
+  thin: 100,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  bold: 700,
+  black: 900
+);
+
+/**
+ * Color
+ */
+// Site color
+$color: (
+  white: #ffffff,
+  black: #3b3b3b,
+);

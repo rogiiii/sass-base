@@ -1,0 +1,29 @@
+/**
+ * mixin
+ */
+@mixin flex($direction: row, $align: stretch, $justify: flex-start, $wrap: nowrap) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+  flex-wrap: $wrap;
+}
+
+/**
+ * function
+ */
+@function glid($size: 1) {
+  @return $glid * $size;
+}
+
+@function size($key) {
+  @return map-get($font-size, $key);
+}
+
+@function weight($key) {
+  @return map-get($font-weight, $key);
+}
+
+@function color($key) {
+  @return map-get($color, $key);
+}

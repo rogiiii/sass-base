@@ -1,0 +1,12 @@
+@import 'imports';
+
+html {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+  font-size: size(base);
+  font-weight: weight(regular);
+  color: color(black);
+  a {
+    color: color(black);
+    text-decoration: none;
+  }
+}
